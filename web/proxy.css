@@ -243,3 +243,20 @@ flex: 1;
 	margin-bottom: 15px;
 }
 }
+        .stream-links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .stream-link {
+            background: #ff5722;
+            padding: 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.1rem;
+            transition: background 0.3s;
+        }
+        .stream-link:hover {
+            background: #e64a19;
+        }
